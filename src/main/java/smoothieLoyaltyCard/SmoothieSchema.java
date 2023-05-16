@@ -4,8 +4,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class SmoothieSchema {
-  private Map<String, Integer> categoryPoints;
-  private DrinkCatalog drinkCatalog ;
+  private final Map<String, Integer> categoryPoints;
+  private final DrinkCatalog drinkCatalog ;
 
   public SmoothieSchema(DrinkCatalog drinkCatalog) {
     categoryPoints  = new HashMap<>();

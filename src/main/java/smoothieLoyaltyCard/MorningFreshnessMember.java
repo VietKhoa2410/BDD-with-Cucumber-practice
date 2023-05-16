@@ -1,8 +1,8 @@
 package smoothieLoyaltyCard;
 
 public class MorningFreshnessMember {
-  private String name;
-  private SmoothieSchema schema;
+  private final String name;
+  private final SmoothieSchema schema;
   private int points;
 
   public MorningFreshnessMember(String username, SmoothieSchema schema) {
